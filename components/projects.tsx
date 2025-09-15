@@ -6,13 +6,36 @@ type ProjectCardProps = {
 function ProjectCard({ title, description }: ProjectCardProps) {
   return (
     <article className="flex flex-col rounded-lg border border-gray-200 p-4">
-      <div className="mb-3 h-36 w-full rounded-md border border-dashed border-gray-300 bg-white" aria-hidden />
+      <div
+        className="mb-3 h-36 w-full rounded-md border border-dashed border-gray-300 bg-white"
+        aria-hidden
+      />
       <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
       <p className="mt-1 text-sm text-gray-700">{description}</p>
-      <div className="mt-3">
-        <span className="rounded-md bg-teal-500/10 px-2 py-1 text-xs font-medium text-teal-600">Coming soon</span>
+
+      <div className="mt-3 flex gap-3">
+        {/* Live Demo Link */}
+        <a
+          href="https://task-manager-roan-eight-84.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-md bg-teal-600 px-3 py-1 text-xs font-medium text-white hover:bg-teal-700"
+        >
+          Live Demo
+        </a>
+
+        {/* Source Code Link */}
+        <a
+          href="https://github.com/Pratik11571/Task-Manager"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-md bg-gray-800 px-3 py-1 text-xs font-medium text-white hover:bg-gray-900"
+        >
+          Source Code
+        </a>
       </div>
     </article>
+
   )
 }
 
