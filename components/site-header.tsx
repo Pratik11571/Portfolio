@@ -15,7 +15,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 w-full border-b border-gray-200 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <Link href="/" className="font-semibold tracking-tight text-blue-600">
-          {"<"}YourName{"/>"}
+          {"<"}Pratik Malwade{"/>"}
         </Link>
         <nav aria-label="Primary" className="hidden items-center gap-6 md:flex">
           {NAV.map((item) => (
