@@ -19,8 +19,8 @@ function ProjectCard({ title, description }: ProjectCardProps) {
 export function Projects() {
   const placeholders = [
     {
-      title: "Project One",
-      description: "A full-stack MERN application. Add a short blurb about the problem it solves and your role.",
+      title: "Task Manager App",
+      description: "Role-based MERN Task Manager with task assignment, progress tracking, and interactive reports.",
     },
     {
       title: "Project Two",
