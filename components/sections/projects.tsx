@@ -44,14 +44,6 @@ export function Projects() {
       title: "Task Manager App",
       description: "Role-based MERN Task Manager with task assignment, progress tracking, and interactive reports.",
     },
-    {
-      title: "Project Two",
-      description: "Emphasize interesting challenges, performance wins, or design decisions.",
-    },
-    {
-      title: "Project Three",
-      description: "Focus on measurable outcomes and technologies used (React, Node.js, Prisma, PostgreSQL).",
-    },
   ]
 
   return (
